@@ -18,6 +18,13 @@
         return n.toFixed(2) + "%";
     }
 
+    function fmtTime(t) {
+        if (!t) return "-";
+        const s = String(t).padStart(6, "0");
+        if (s.length !== 6 || !/^\d{6}$/.test(s)) return t;
+        return `${s.slice(0, 2)}:${s.slice(2, 4)}:${s.slice(4, 6)}`;
+    }
+
     function fmtUpdated(iso) {
         if (!iso) return "";
         const d = new Date(iso);
@@ -53,13 +60,18 @@
                 <span class="val">${fmtMoney(s.float_cap)}</span>
             </div>
             <div class="card-row">
-                <span class="label">封板时间</span>
-                <span class="val">${s.first_seal || "-"}</span>
+                <span class="label">${s.break_times > 0 ? "首次封板" : "封板时间"}</span>
+                <span class="val">${fmtTime(s.first_seal)}</span>
+            </div>
+            ${s.break_times > 0 ? `
+            <div class="card-row">
+                <span class="label">最后封板</span>
+                <span class="val">${fmtTime(s.last_seal)}</span>
             </div>
             <div class="card-row">
                 <span class="label">炸板次数</span>
-                <span class="val">${s.break_times}</span>
-            </div>
+                <span class="val" style="color:#f0b232">${s.break_times} 次</span>
+            </div>` : ""}
             ${s.industry ? `<div class="card-industry">${s.industry}</div>` : ""}
             <div class="card-links">
                 <a href="${s.eastmoney_url}" target="_blank" rel="noopener">东方财富</a>
