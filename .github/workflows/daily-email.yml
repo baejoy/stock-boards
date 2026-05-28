@@ -1,0 +1,36 @@
+name: Daily 18:00 email
+
+on:
+  # 北京时间 18:00 = UTC 10:00，周一至周五
+  schedule:
+    - cron: '0 10 * * 1-5'
+  workflow_dispatch:        # 支持网页手动触发，便于调试
+
+concurrency:
+  group: daily-email
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # 总是拉最新一次 update-data 推上来的 boards.json
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Send email
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+          MAIL_TO:   ${{ secrets.MAIL_TO }}
+          MIN_BOARDS: '2'
+        run: python scripts/send_email.py
