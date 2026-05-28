@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>连板股池 · 看盘</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">
+            <span class="logo">📈</span>
+            <span>连板股池</span>
+        </div>
+        <div class="controls">
+            <label>最低连板</label>
+            <select id="min-input">
+                <option value="2" selected>2 连板及以上</option>
+                <option value="3">3 连板及以上</option>
+                <option value="4">4 连板及以上</option>
+                <option value="5">5 连板及以上</option>
+            </select>
+            <button id="refresh-btn">刷新</button>
+            <span id="status" class="status"></span>
+        </div>
+    </header>
+
+    <main id="board-container" class="board-container">
+        <div class="empty">加载中...</div>
+    </main>
+
+    <footer class="footer">
+        数据源: akshare (东方财富涨停股池) · 每 5 分钟由 GitHub Actions 自动更新 · 仅供研究，不构成投资建议
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
