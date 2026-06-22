@@ -203,7 +203,7 @@
         "seal_amount": 103573279.0,
         "first_seal": "093000",
         "last_seal": "093639",
-        "break_times": 5,
+        "break_times": 4,
         "industry": "消费电子",
         "eastmoney_url": "https://quote.eastmoney.com/sz002655.html",
         "ths_url": "https://stockpage.10jqka.com.cn/002655/",
@@ -427,5 +427,5 @@
       }
     ]
   },
-  "updated_at": "2026-06-22T12:36:01.465081+00:00"
+  "updated_at": "2026-06-22T13:43:30.855904+00:00"
 }
