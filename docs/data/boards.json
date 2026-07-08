@@ -57,7 +57,7 @@
         "seal_amount": 2435581.0,
         "first_seal": "093033",
         "last_seal": "150000",
-        "break_times": 8,
+        "break_times": 9,
         "industry": "元件",
         "eastmoney_url": "https://quote.eastmoney.com/sz301251.html",
         "ths_url": "https://stockpage.10jqka.com.cn/301251/",
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "updated_at": "2026-07-08T09:13:59.977612+00:00"
+  "updated_at": "2026-07-08T10:29:59.994806+00:00"
 }
