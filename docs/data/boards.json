@@ -2,7 +2,7 @@
   "ok": true,
   "requested_date": "20260709",
   "data_date": "20260709",
-  "total": 5,
+  "total": 6,
   "groups": {
     "8": [
       {
@@ -11,10 +11,10 @@
         "boards": 8,
         "change_pct": 9.995635032653809,
         "price": 25.2,
-        "turnover": 304839952.0,
+        "turnover": 327029552.0,
         "float_cap": 4609920016.8,
-        "turnover_rate": 6.735199928283691,
-        "seal_amount": 201802406.0,
+        "turnover_rate": 7.2165446281433105,
+        "seal_amount": 148919198.0,
         "first_seal": "093033",
         "last_seal": "093033",
         "break_times": 0,
@@ -24,6 +24,26 @@
         "xueqiu_url": "https://xueqiu.com/S/SH603137"
       }
     ],
+    "3": [
+      {
+        "code": "002841",
+        "name": "视源股份",
+        "boards": 3,
+        "change_pct": 10.002110481262207,
+        "price": 52.13,
+        "turnover": 2546645776.0,
+        "float_cap": 27177738099.98,
+        "turnover_rate": 9.717670440673828,
+        "seal_amount": 8518042.0,
+        "first_seal": "100642",
+        "last_seal": "145054",
+        "break_times": 70,
+        "industry": "消费电子",
+        "eastmoney_url": "https://quote.eastmoney.com/sz002841.html",
+        "ths_url": "https://stockpage.10jqka.com.cn/002841/",
+        "xueqiu_url": "https://xueqiu.com/S/SZ002841"
+      }
+    ],
     "2": [
       {
         "code": "000977",
@@ -31,10 +51,10 @@
         "boards": 2,
         "change_pct": 10.003837585449219,
         "price": 85.99,
-        "turnover": 18189958912.0,
+        "turnover": 18533723904.0,
         "float_cap": 126132866825.95999,
-        "turnover_rate": 14.601700782775879,
-        "seal_amount": 1890508551.0,
+        "turnover_rate": 14.874242782592773,
+        "seal_amount": 917382767.0,
         "first_seal": "093833",
         "last_seal": "100721",
         "break_times": 2,
@@ -49,10 +69,10 @@
         "boards": 2,
         "change_pct": 10.024450302124023,
         "price": 18.0,
-        "turnover": 1096847600.0,
+        "turnover": 1171837360.0,
         "float_cap": 6132672000.0,
-        "turnover_rate": 18.462568283081055,
-        "seal_amount": 97514640.0,
+        "turnover_rate": 19.685359954833984,
+        "seal_amount": 18854676.0,
         "first_seal": "093227",
         "last_seal": "103945",
         "break_times": 3,
@@ -67,10 +87,10 @@
         "boards": 2,
         "change_pct": 10.043041229248047,
         "price": 7.67,
-        "turnover": 617978784.0,
+        "turnover": 680389584.0,
         "float_cap": 4155007740.0,
-        "turnover_rate": 15.38218879699707,
-        "seal_amount": 86662563.0,
+        "turnover_rate": 16.88425064086914,
+        "seal_amount": 43475861.0,
         "first_seal": "110403",
         "last_seal": "110403",
         "break_times": 0,
@@ -85,10 +105,10 @@
         "boards": 2,
         "change_pct": 10.045661926269531,
         "price": 7.23,
-        "turnover": 103716963.0,
+        "turnover": 107694056.0,
         "float_cap": 3987416215.5,
-        "turnover_rate": 2.6795573234558105,
-        "seal_amount": 159145003.0,
+        "turnover_rate": 2.7792985439300537,
+        "seal_amount": 56860154.0,
         "first_seal": "094118",
         "last_seal": "094118",
         "break_times": 0,
@@ -99,5 +119,5 @@
       }
     ]
   },
-  "updated_at": "2026-07-09T04:51:54.077487+00:00"
+  "updated_at": "2026-07-09T08:23:36.970487+00:00"
 }
