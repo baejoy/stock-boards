@@ -14,7 +14,7 @@
         "turnover": 2357097472.0,
         "float_cap": 5519335674.8,
         "turnover_rate": 43.407379150390625,
-        "seal_amount": 9782500.0,
+        "seal_amount": 54634940.0,
         "first_seal": "093106",
         "last_seal": "130427",
         "break_times": 9,
@@ -52,7 +52,7 @@
         "turnover": 147231727.0,
         "float_cap": 3140361222.09,
         "turnover_rate": 4.756082534790039,
-        "seal_amount": 3886848.0,
+        "seal_amount": 41086557.0,
         "first_seal": "093125",
         "last_seal": "093319",
         "break_times": 1,
@@ -81,5 +81,5 @@
       }
     ]
   },
-  "updated_at": "2026-08-20T07:14:35.958471+00:00"
+  "updated_at": "2026-08-20T07:59:04.016602+00:00"
 }
