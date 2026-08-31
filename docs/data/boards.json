@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "requested_date": "20260831",
-  "data_date": "20260831",
+  "requested_date": "20260901",
+  "data_date": "20260901",
   "total": 18,
   "groups": {
     "6": [
@@ -113,7 +113,7 @@
         "seal_amount": 39240009.0,
         "first_seal": "093027",
         "last_seal": "140815",
-        "break_times": 6,
+        "break_times": 7,
         "industry": "塑料",
         "eastmoney_url": "https://quote.eastmoney.com/sz002886.html",
         "ths_url": "https://stockpage.10jqka.com.cn/002886/",
@@ -339,5 +339,5 @@
       }
     ]
   },
-  "updated_at": "2026-08-31T14:26:16.064236+00:00"
+  "updated_at": "2026-08-31T16:08:25.336634+00:00"
 }
