@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "requested_date": "20261102",
-  "data_date": "20261102",
+  "requested_date": "20261103",
+  "data_date": "20261103",
   "total": 11,
   "groups": {
     "6": [
@@ -90,7 +90,7 @@
         "turnover": 84230181.0,
         "float_cap": 6007738347.0,
         "turnover_rate": 1.4020280838012695,
-        "seal_amount": 36031050.0,
+        "seal_amount": 564421419.0,
         "first_seal": "092501",
         "last_seal": "092501",
         "break_times": 0,
@@ -128,7 +128,7 @@
         "turnover": 967306464.0,
         "float_cap": 6951722732.64,
         "turnover_rate": 14.216763496398926,
-        "seal_amount": 1817640.0,
+        "seal_amount": 22743108.0,
         "first_seal": "093812",
         "last_seal": "095718",
         "break_times": 4,
@@ -164,7 +164,7 @@
         "turnover": 257704800.0,
         "float_cap": 6707652547.53,
         "turnover_rate": 3.9088571071624756,
-        "seal_amount": 1081278.0,
+        "seal_amount": 11641206.0,
         "first_seal": "095110",
         "last_seal": "100958",
         "break_times": 4,
@@ -211,5 +211,5 @@
       }
     ]
   },
-  "updated_at": "2026-11-02T07:15:49.113273+00:00"
+  "updated_at": "2026-11-02T17:12:24.370270+00:00"
 }
